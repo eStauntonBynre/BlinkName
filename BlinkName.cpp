@@ -17,7 +17,7 @@ String transToMorse(String phrase)
     {
         for (int j = 0; j < 26; j++) //iterate through alphabet array
         {
-            if (phrase[i] == alpha[j]) 
+            if (phrase[i] == alpha[j])  
             {
                 translation += morseCode[j]; //add morse to translation
                 break;
